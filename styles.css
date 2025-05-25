@@ -773,9 +773,10 @@ body {
         width: 90vw;
         padding: 0 25px 20px 25px;
         height: 50vh;
-        min-height: 500px;
+        min-height: 400px;
     }
     .about-text h2 {
+        font-size: 1rem;
         margin-bottom: 5px;
     }
     .about-text h3 {
@@ -788,19 +789,32 @@ body {
     }
 
     .about-image img {
-        width: 200px;
-        height: 200px;
+        width: 140px;
+        height: 140px;
     }
 
     .card-header h1 {
         font-size: 2rem;
     }
-
     .about-text h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    .about-text h3 {
+        font-size: 1.25rem;
+        margin-bottom: 5px;
+    }
+    .about-text p {
+        font-size: 1rem;
     }
     .project-content {
-        padding: 10px;
+        padding: 5px 15px;
+    }
+    .project-content h3 {
+        margin-bottom: 5px;
+        font-size: 1.25rem;
+    }
+    .project-content p {
+        font-size: 0.9rem;
     }
     .project-item img {
         width: 0;
@@ -809,13 +823,29 @@ body {
     }
     .skills-grid {
         flex-direction: row-reverse;
-        gap: 15px;
+        gap: 5px;
     }
     .skill-category {
         padding: 10px;
     }
+    .skill-category h3 {
+        font-size: 1.25rem;
+        margin-bottom: 5px;
+    }
+    .skill-tag {
+        padding: 2px 8px;
+    }
     .education-item {
-        padding: 20px;
+        padding: 15px;
+    }
+    .education-item h3 {
+        font-size: 1.25rem;
+    }
+    .education-item h4 {
+        font-size: 1rem;
+    }
+    .institution {
+        font-size: 0.9rem;
     }
     .contact-grid {
         gap: 10px
@@ -844,10 +874,10 @@ body {
     }
 
     .about-text h2 {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
     .about-text h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .about-text p {
         font-size: 0.9rem;
@@ -860,7 +890,7 @@ body {
         gap: 10px
     }
     .project-content {
-        padding: 0 10px 10px 10px;
+        padding: 10px;
     }
     .project-content h3 {
         margin-bottom: 0;
@@ -870,6 +900,7 @@ body {
         font-size: 0.9rem;
     }
     .project-item img {
+        display: none;
         width: 0;
         height: 0;
         flex: 1 1 100%
@@ -918,8 +949,31 @@ body {
         font-size: 1.5rem;
     }
     .about-image img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
+    }
+    .about-text h2 {
+        font-size: 1.2rem;
+    }
+    .about-text h3 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .about-text p {
+        font-size: 0.8rem;
+    }
+    .projects-grid {
+        gap: 5px
+    }
+    .project-content {
+        padding: 5px 10px;
+    }
+    .project-content h3 {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .project-content p {
+        font-size: 0.8rem;
     }
     .skills-grid {
         gap: 5px
@@ -928,16 +982,27 @@ body {
         padding: 5px;
     }
     .skill-category h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .skill-tag {
+        font-size: 0.8rem;
         padding: 5px 10px;
     }
+    .education-item h3 {
+        font-size: 1rem;
+    }
+    .education-item h4 {
+        font-size: 0.9rem;
+    }
+    .institution {
+        font-size: 0.8rem;
+    }
     .contact-item img {
-        height: 40px;
-        width: 40px;
+        margin-bottom: 0px;
+        height: 30px;
+        width: 30px;
     }
     .contact-item h3 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
