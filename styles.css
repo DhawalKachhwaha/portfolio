@@ -26,7 +26,6 @@ html {
 html::-webkit-scrollbar {
     display: none;
 }
-/*#caf0f8ff, #ade8f4ff, #90e0efff, #48cae4ff, #00b4d8ff, #0096c7ff, #0077b6ff, #023e8aff, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff*/
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: linear-gradient(0deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff, #ade8f4ff, #90e0efff, #48cae4ff, #00b4d8ff, #0096c7ff, #0077b6ff, #023e8aff, #03045eff);
@@ -406,10 +405,6 @@ body {
 }
 
 .front {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
     position: absolute;
     height: 55vh;
     width: 95vw;
@@ -418,21 +413,6 @@ body {
     background: linear-gradient(145deg, #f1f5f9, #e2e8f0);
     border-radius: 10px;
     clip-path: polygon(0 0, 50% 40%, 100% 0, 100% 100%, 0% 100%);
-}
-.front h1 {
-    font-size: 2.5rem;
-    color: var(--text-dark);
-    margin-bottom: 10px;
-    background: var(--primary-color);
-    color: transparent;
-    background-clip: text;
-}
-
-.front h2 {
-    font-size: 2rem;
-    color: var(--accent-color);
-    margin-bottom: 150px;
-    font-weight: 500;
 }
 .flap {
     position: absolute;
